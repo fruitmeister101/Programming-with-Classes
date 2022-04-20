@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\bin\Debug\net6.0\Programming with Classes.exe
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\bin\Debug\net6.0\Programming with Classes.deps.json
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\bin\Debug\net6.0\Programming with Classes.runtimeconfig.json
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\bin\Debug\net6.0\Programming with Classes.dll
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\bin\Debug\net6.0\Programming with Classes.pdb
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\Programming with Classes.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\Programming with Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\Programming with Classes.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\Programming with Classes.AssemblyInfo.cs
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\Programming with Classes.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\Programming with Classes.dll
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\refint\Programming with Classes.dll
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\Programming with Classes.pdb
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\Programming with Classes.genruntimeconfig.cache
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\obj\Debug\net6.0\ref\Programming with Classes.dll
