@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Programming with Classes/1.0.0": {
+      "W02/1.0.0": {
         "runtime": {
-          "Programming with Classes.dll": {}
+          "W02.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Programming with Classes/1.0.0": {
+    "W02/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

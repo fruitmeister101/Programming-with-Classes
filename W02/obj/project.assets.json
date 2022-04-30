@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\Programming with Classes.csproj",
-      "projectName": "Programming with Classes",
-      "projectPath": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\Programming with Classes.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\W02\\W02.csproj",
+      "projectName": "W02",
+      "projectPath": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\W02\\W02.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\W02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
