@@ -19,10 +19,12 @@ class MagicNumberGame{
     //Main Game Start -----------------------------------------------------------------
 
 
+    Random rnd;
+
     public int magicNumber = 0;
     int counter = 0;
     public void Main(){
-    
+        rnd = new Random(DateTime.Now.Second);
         magicNumber = PickRandomNumber();
         bool continueGame = true;
         counter = 0;
@@ -64,7 +66,7 @@ class MagicNumberGame{
         Console.WriteLine("What Number Range do you want to work with? (pick 2 integers) :");
         int x = int.Parse(Console.ReadLine());
         int y = int.Parse(Console.ReadLine());
-        Random rnd = new Random();
+        
         int randNum = rnd.Next(x, y);
         Console.WriteLine("Alrighty then, Guess the number I picked!");
         return randNum;
