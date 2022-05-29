@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\W02\\W02.csproj": {}
+    "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\Projects\\W02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\W02\\W02.csproj": {
+    "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\Projects\\W02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\W02\\W02.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\Projects\\W02.csproj",
         "projectName": "W02",
-        "projectPath": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\W02\\W02.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\Projects\\W02.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\W02\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\College\\Spring 2022\\Programming with Classes\\Projects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"

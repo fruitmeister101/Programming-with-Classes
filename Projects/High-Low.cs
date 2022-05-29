@@ -24,7 +24,7 @@ class HighLow{
     void StartGame(){
         badGuess = true;
         game = true;
-        score = 300;
+        score = 125;
         Print("Your Score starts at 300\nCorrect guessing increases your score by 100\nIncorrect guesses reduce your score by 75\n");
     }
     void PickNumber(){
@@ -32,6 +32,7 @@ class HighLow{
         pick = rnd.Next(1,14);
         if(pick > 13 || pick < 1){
             Print("Hidden Error Message 1. You shouldn't see this, but if you do, you will lose the game");
+            game = false;
         }
     }
     void Guess(){
@@ -47,16 +48,18 @@ class HighLow{
         }
         Print("Your guess is not within the values given. Guess again.");
         score -= 1;
+        Print($"Your score has been reduced to {score}");
+        badGuess = score > 0;
     }
     void RevealGuess(){
         Print($"The next number is: {pick}");
         if(pick > prevPick && guess == "1"){
             Print("You are Correct!");
-            score += 100;
+            score += 50;
         }
         else if(pick < prevPick && guess == "2"){
             Print("You are Correct!");
-            score += 100;
+            score += 75;
         }
         else{
             Print("Wrong");
