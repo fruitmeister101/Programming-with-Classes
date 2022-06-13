@@ -1,6 +1,3 @@
-
-
-
 public class HangMan{
     Random rnd = new Random();
     int maxWrongGuesses = 10;
@@ -10,26 +7,20 @@ public class HangMan{
     string hiddenWord;
     string guessLetter = "";
     int remainingLetters = 0;
-
     bool game = true;
     public void Main(){
-
-
         StartGame();
         PasteHiddenWordWithGuesses();
         do{
             TakeGuess();
             PasteHiddenWordWithGuesses();
             CheckGameState();
-
         }while(game);
         Print("\nGG, thanks for playing!");
     }
     void StartGame(){
         magicWord = RandomWord();
         wrongGuesses = 0;
-        
-
     }
     void PasteHiddenWordWithGuesses(){
         remainingLetters = 0;
@@ -70,8 +61,6 @@ public class HangMan{
             if(failed || !magicWord.Contains(outchar)){wrongGuesses++;if(wrongGuesses>=maxWrongGuesses){return;}} //Quick Check
         }while(failed);
         guesses.Add(outchar);
-
-
     }
     void CheckGameState(){
         if (wrongGuesses>=maxWrongGuesses)
@@ -88,17 +77,6 @@ public class HangMan{
             return;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
     void Print(string message="", bool newLine=true){
         if(newLine){
             Console.WriteLine(message);
@@ -113,5 +91,4 @@ public class HangMan{
         x = x is null ? "" : x;
         return x;
     }
-
 }

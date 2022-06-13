@@ -1,0 +1,8 @@
+Well, as this is my first real attempt making anything with a Graphics Engine outside of Game Engines, I really can't say I'm disappointed in my work. Yes, it's a buggy spaghetti-y mess, but I don't care, it's awesome.
+
+Player Input is designated to the arrow keys
+Collecting an object will create new ones, and new objects are determined rocks or gems mostly by how well you are doing
+
+The DotNet environment is required, I believe version 6.0.202, but it should be great.
+
+Access the game through the game selector, via the console. That's something else I am proud of.

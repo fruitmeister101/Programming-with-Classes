@@ -28,3 +28,9 @@ C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\obj\De
 C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\obj\Debug\net6.0\W02.pdb
 C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\obj\Debug\net6.0\W02.genruntimeconfig.cache
 C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\obj\Debug\net6.0\ref\W02.dll
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\bin\Debug\net6.0\Raylib-cs.dll
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\Users\pc\Desktop\College\Spring 2022\Programming with Classes\Projects\obj\Debug\net6.0\W02.csproj.CopyComplete
