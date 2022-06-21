@@ -3,8 +3,8 @@ namespace GreedGame{
 using Raylib_cs;
 class Greed{
     static string WINDOW_NAME = "Greed";
-    public static int WINDOW_WIDTH = 900;
-    public static int WINDOW_HEIGHT = 600;
+    public static int WINDOW_WIDTH = 1500;
+    public static int WINDOW_HEIGHT = 900;
     static int WINDOW_FRAMERATE = 30;
     public static int FONT_SIZE = 20;
     public static Color DEFAULT_COLOR = new Raylib_cs.Color(0, 0, 0, 255);
@@ -12,7 +12,7 @@ class Greed{
     public static Random rnd = new Random(DateTime.Now.Second + DateTime.Now.Millisecond);
     public int score = 0;
     public int scoreSpawnNew = 0;
-    int scoreRequiredForSpawn = 5000;
+    int scoreRequiredForSpawn = 750;
     public static AllTheThings allTheThings = new AllTheThings();
     public static Greed Instance;
 
@@ -37,8 +37,8 @@ class Greed{
 
             allTheThings.MoveAllThings();
             allTheThings.DrawAllThings();
-            do{DoSpawnThing();}while(MathF.Abs(scoreSpawnNew) >= scoreRequiredForSpawn);
-
+            //do{DoSpawnThing();}while(MathF.Abs(scoreSpawnNew) >= scoreRequiredForSpawn);
+            if (MathF.Abs(scoreSpawnNew) > scoreRequiredForSpawn){DoSpawnThing();}
 
 
             //Put Logic Here----<

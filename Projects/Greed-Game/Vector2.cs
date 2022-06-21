@@ -36,5 +36,17 @@ namespace GreedGame{
         return temp;
     }
 
+    public float Magitude(){
+        return MathF.Sqrt(x*x + y*y);
+    }
+    public void Scale(float scale=0.0f){
+        x *= scale;
+        y *= scale;
+    }
+
+    public void Normalized(float len=1.0f){
+        this.Scale(len / Magitude());
+    }
+
 }
 }

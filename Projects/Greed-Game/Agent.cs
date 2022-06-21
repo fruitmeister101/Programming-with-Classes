@@ -88,7 +88,7 @@ public static void DefaultRandomize(Agent agent, bool gem=false){
     agent.size = Greed.rnd.NextSingle() * 30.0f + 5.0f;
     agent.shape = gem ? 4 : 3; 
     agent.rotOffset = gem ? 0 : 30;
-    agent.color = gem ? new Raylib_cs.Color(ColorRandom(), ColorRandom(), ColorRandom(), 255) : Raylib_cs.Color.RED;
+    agent.color = gem ? new Raylib_cs.Color(ColorRandom(), ColorRandom(), ColorRandom(), 255) : Raylib_cs.Color.RED; 
     agent.pos = new Vector2(Greed.rnd.NextSingle() * Greed.WINDOW_WIDTH, -agent.size);
     agent.rotMove = Greed.rnd.Next(0,50) == 0 ? 60 : 0 ;
 }
