@@ -1,7 +1,8 @@
 using GreedGame;
+using WarLords;
 
 
-Console.Write("Which Program would you like to run Today?\nCurrent selections available are (not case-sensitive):\nTicTacToe\nMagicNumberGame\nHighLow\nHangMan\nGreed\n: ");
+Console.Write("Which Program would you like to run Today?\nCurrent selections available are (not case-sensitive):\nTicTacToe\nMagicNumberGame\nHighLow\nHangMan\nGreed\nWarLords\n: ");
 string potato = Console.ReadLine();
 
 if(potato.ToLower() == "tictactoe"){
@@ -21,7 +22,10 @@ if (potato.ToLower() == "hangman"){
     Program.Main();
 }
 if (potato.ToLower() == "greed"){
-    Greed Program = new Greed();
+    new Greed();
+}
+if (potato.ToLower() == "warlords"){
+    new WarLordsRipOff();
 }
 
 
